@@ -52,4 +52,8 @@ public class MyHashSet<E> {
         return hashList;
     }
 
+    public String toString()
+    {
+        return toDLList().toString();
+    }
 }

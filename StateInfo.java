@@ -10,7 +10,7 @@ public class StateInfo {
         this.StateCapital = StateCapital;
         this.StatePopulation = StatePopulation;
         this.StateSize = StateSize;
-        urls = new DLList<String>();
+        this.urls = urls;
     } 
     public int getSize() {
         return StateSize;

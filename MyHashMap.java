@@ -50,11 +50,7 @@ public class MyHashMap<K, V>{
 
     // could be wrong
     public boolean contains(K obj){
-        int index = obj.hashCode();
-        if (hashArray[index] == null){
-            return false;
-        }
-        return true;
+        return keySet.contains( obj );
     }
 
 }
